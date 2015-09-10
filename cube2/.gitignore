@@ -15,7 +15,6 @@ src/web/engine/*.cpp
 src/web/shared/*.cpp
 src/web/enet/
 *~
-*.BAK
 client*.html
 init.cfg
 config.cfg
