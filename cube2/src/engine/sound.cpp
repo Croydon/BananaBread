@@ -505,7 +505,7 @@ int playsound(int n, const vec *loc, extentity *ent, int loops, int fade, int ch
     {
         if(!slot.sample->name[0]) return -1;
 
-        const char *exts[] = { "", ".wav", ".ogg" };
+        const char *exts[] = { "", ".ogg", ".wav" };
         string buf;
         loopi(sizeof(exts)/sizeof(exts[0]))
         {
