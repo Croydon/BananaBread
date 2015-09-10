@@ -2,7 +2,6 @@
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>BananaBread</title>
     <style>
       body { background: #DDDDEE }
@@ -22,7 +21,7 @@
       <input type="button" value="toggle glare" onclick="toggleGlare()">
     </div>
     <textarea class="emscripten" id="output" rows="8"></textarea>
-    <script type='text/javascript'>
+    <script type="text/javascript">
       // connect to canvas
       var Module = {
         preRun: [],
@@ -82,11 +81,11 @@
       <li>Sound efforts work in Firefox, but fail in Chrome due to <a href="http://code.google.com/p/chromium/issues/detail?id=124926">a problem with BlobBuilder</a></li>
     </ul>
     </p>
-    <script type='text/javascript' src='gl-matrix.js'></script>
-    <script type='text/javascript' src='setup.js'></script>
-    <script type='text/javascript' src='setup_fireworks.js'></script>
-    <script type='text/javascript' src='preload_fireworks.js'></script>
-    <script type='text/javascript' src='bb.js'></script>
+    <script src="gl-matrix.js"></script>
+    <script src="setup.js"></script>
+    <script src="setup_fireworks.js"></script>
+    <script src="preload_fireworks.js"></script>
+    <script src="bb.js"></script>
   </body>
 </html>
 

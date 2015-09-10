@@ -1,5 +1,5 @@
 
-Cube 2/Sauerbraten
+Cube 2: Sauerbraten
 ------------------
 
 This directory contains Sauerbraten.
